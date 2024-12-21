@@ -1,0 +1,286 @@
+*,
+::before,
+::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    min-width: 320px;
+    font-family: DM Mono;
+    color: white;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+/* ----------------------header---------------------- */
+header{
+    height: 10vh;
+    width: 80vw;
+    display: flex;
+    align-items: end;   
+    justify-content: space-around; 
+    margin-left: 10vw;
+}
+.logo{
+    align-items: center;
+        
+}
+.logo img{
+    width: 100%;
+}
+nav{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav_contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* ---------------------main--------------------- */
+/* ---------------------META RECORDS LABEL------------------ */
+.meta{
+    display: flex;
+}
+.meta_text{
+    width: 40%;
+    padding-left: 4%;
+    padding-top: 111px;
+}
+.meta_text h1{
+    font-family: Audiowide;
+    font-size: 51px;
+    line-height: 60px;
+}
+.meta_text p{
+    width: 68%;
+    padding-top: 43px;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 25px;
+}
+.meta_btn{
+    width: 35%;
+    height: 50px;
+    background-color: #8DFD1B;
+    margin-top: 115px;
+    text-align: center;
+    justify-content: center;
+}
+.meta_text a{
+    font-size: 16px;
+    color: black;
+}
+.meta_img{
+    width: 60%;
+}
+.meta_img img{
+    width: 100%;
+}
+ /* --------------------------WAVE NFT-------------------------- */
+ .wave-nft{
+    width: 80vw;
+    margin: 10vw 15vw 10vw 5vw;
+    display: flex;
+ }
+ .wave-img{
+    width: 50%;
+ }
+ .wave-img h3{
+    font-family: Audiowide;
+    font-weight: 400;
+    font-size: 38px;
+    margin-left: 5vw;
+ }
+ .wave-img p{
+    font-family: Audiowide;
+    font-weight: 400;
+    font-size: 38px; 
+    color: #A8A8A8;
+    margin-bottom: 10%;
+    margin-left: 5vw;
+ }
+.wave-text{
+    width: 40vw;
+}
+.wave-text h4{
+    line-height: 31.99px;
+    font-size: 21px;
+    color:#8DFD1B;
+    border-left: 2px solid #8DFD1B;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.wave-text p{
+    font-size: 15px;
+    font-family: Inter;
+    margin: 10px 0;
+    line-height: 25.6px;
+}
+.wave-text button{
+    width: 246px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #8DFD1B;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.run-row{
+    height: 15vh;
+    font-size: 79px;
+    font-family: Audiowide;
+    
+}
+.run-row span{
+    margin-left: 300px;
+}
+
+/* ----------------------------artisis---------------------------- */
+
+.artists_card{
+    max-width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 60px;
+    margin-top: 10vh;
+}
+.artist{
+    width: 245px;
+    height: 309px;
+}
+/* ----------------------------the story---------------------------- */
+.story{
+    max-width: 1160px;
+    margin-top: 15vh;
+}
+.story h4{
+    font-family: Audiowide;
+    font-size: 37px;
+    text-align: center;
+}
+.story span{
+    color: #A8A8A8;
+}
+.about_us{
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+    margin: 5% 15% 20% 5%;
+}
+.tab{
+    width: 250px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab_active{
+    display: block;
+    background-color: #222222;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: none;
+} 
+.content_active{
+    display: flex;
+    background-color: #222222;
+    padding: 60px;
+    justify-content: space-evenly;
+    min-height: 538px;
+}
+
+.img{
+    width: 172px;
+    height: auto;
+}
+.content_text{
+    padding-left: 40px;
+}
+.content_text h4{
+    font-family: DM Mono;
+    font-size: 21px;
+    color: #8DFD1B;
+    border-left: #8DFD1B  solid 2px;
+    margin-bottom: 32px;
+    text-align: left;
+    padding: 0 22px;
+}
+.content_text p{
+    font-family: Inter;
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 25.6pxˇ;
+}
+.block-img{
+    width: 100%;
+}
+
+.roadmap{
+    width: 100%;
+    padding-bottom: 18%;
+
+}
+
+.roadmap h4{
+    font-family: Audiowide;
+    font-size: 37px;
+    text-align: center;  
+    margin-top: 8%;
+}
+.phase{
+    width: 540px;
+    height: 271px;
+    background-color: #222222;
+    border: 1px #8DFD1B solid;
+    margin: 106px auto 0 auto;
+}
+.period{
+   display: flex;
+   border-bottom: 1px #8DFD1B solid ;
+}
+.number{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    align-self: center;
+    border: #8DFD1B 1 px solid;
+    background-color: #8DFD1B;
+    color: black;
+    font-size: 28px;
+    margin: 12px 12px 13px 12px;
+}
+.phase_period{
+    margin-top: 15px;
+}
+.green-text{
+    font-size: 8px;
+    color: #8DFD1B;
+    line-height: 12px;
+
+}
+.white_text{
+    font-size: 16px;
+    line-height:  27px;
+}
